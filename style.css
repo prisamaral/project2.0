@@ -1,0 +1,245 @@
+body{
+	background-color:black;
+}
+.main {
+  border: 2px  solid;
+  width: 100%;
+  height: 20px;
+     grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+.box {
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  border: 2px white solid;
+   height: 100px;
+   grid-template-columns: 15% 15% 15% 15% 15% 15%;
+     display: inline-grid;
+	 width: 100%;
+
+}
+p{
+	font-family:  Candara;
+	font-size: 30px;
+	text-align:center;
+	grid-template-columns: 10% 10% 10% 10% 10% 10%;
+}	
+.topnav {
+ overflow: hidden;
+}
+.box2{
+	 border-radius: 3px;
+   height: 100%;
+   background-color: #6A2F32;
+}
+.box3{
+	border-radius: 3px;  
+   display: inline-grid;
+	 grid-template-rows:1fr 1fr;
+	 border: white dotted 3px;
+	 width: 50%;
+	height:40%;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:white;
+}
+.box4{
+	border-radius: 3px;  
+   display: inline-grid;
+	 grid-template-rows:1fr;
+	 grid-template-columns:1fr 1fr;
+	 border: white dotted 3px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:white;
+	width: 50%;
+	height:40%;
+	height:370px;
+}
+.box5{
+	border-radius: 3px;  
+	 grid-template-rows:1fr;
+	 grid-template-columns:1fr 1fr;
+	 border: brown double 3px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:white;
+	width: 50%;
+	height:40%;
+	background-color:#CEB974;
+	position:center-right;	
+}
+.box6{
+	border-radius: 3px;  
+   display:grid;
+	 grid-template-rows:1fr;
+	 grid-template-columns:1fr 1fr;
+	 border: white dotted 3px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:white;
+	width: 50%;
+	height:40%;
+	position: relative;
+	right: 50%;
+	height:400px;
+}
+.box7{
+	border-radius: 3px;  
+   display: inline-grid;
+	 grid-template-rows:1fr;
+	 grid-template-columns:1fr 1fr;
+	 border: white dotted 3px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:white;
+	width: 50%;
+	height:40%;
+	height:90px;
+}
+.box8{
+	border-radius: 3px;  
+	 grid-template-rows:1fr;
+	 grid-template-columns:1fr 1fr;
+	 border: purple double 3px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:white;
+	width: 50%;
+	height:40%;
+	position:center-right;	
+	text-align:center;
+}
+.box8{
+	border-radius: 3px;  
+	 grid-template-rows:1fr;
+	 grid-template-columns:1fr 1fr;
+	 border: purple double 3px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:white;
+	width: 50%;
+	height:40%;
+	position:center-right;	
+}
+.box9{
+	border-radius: 3px;  
+	 grid-template-rows:1fr;
+	 grid-template-columns:1fr 1fr;
+	 border: purple double 3px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:white;
+	width: 50%;
+	height:40%;
+	position:center-right;	
+}
+img{
+	width:1900px;
+	height:900px;
+	float:center;
+	display:inline;
+	position: relative;
+	right:110px;
+}
+#img2{
+	width:550px;
+	height:550px;
+	display:inline;
+	float:center;
+	position: relative;
+	left: 200px;
+	
+}
+#img3{
+	width:550px;
+	height:550px;
+	display:inline;
+	float:center;
+	position: relative;
+	left: 200px;
+	
+	
+}
+#p2{
+	position: relative;
+	z-index: 2;
+	background: none;
+	color: red;
+	font-family:Marker Felt, fantasy;
+	font-size: 140px;
+	display:inline;
+	 float:center;
+}
+#p3{
+	color: white;
+	font-family: sans-serif;
+	font-size: 75px;
+	position: relative;
+	text-align:center;
+	grid-template-columns: 10% 10%;
+}
+#p4{
+	color: white;
+	font-family: sans-serif;
+	font-size: 28px;
+	position: relative;
+	 float:center;
+}
+#p5{
+	color: white;
+	font-size: 75px;
+	font-family: Bradley Hand, cursive;
+}
+#p6{
+	color: white;
+	font-family: sans-serif;
+	font-size: 40px;
+	position: relative;
+	text-align:center;
+	grid-template-columns: 10% 10%;
+}
+
+.maingrid{
+	grid-template-columns: 2fr 1fr 2fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	display:inline;
+	position: relative;
+	left: 100px;
+	width: 100%;
+	height: 100%;
+	border: black solid 3px;
+	position: relative;
+}
+#body2{
+	background-color:#8AC09E;
+}
+#body3{
+	background-color: #C0B38A;
+}
+#body4{
+	background-color:#C6AFE8;
+}
+a:hover{
+	cursor:grabbing;
+}
+#img4{
+	width:900px;
+	height:900px;
+	float:center;
+	display:inline;
+	position: relative;
+	right:30px;
+}
+#img5{
+	width:350px;
+	height:300px;
+	float:right;
+	display:inline;
+	right:175%;
+}
+.auto-grid {
+	display:grid;
+	grid-template: auto / auto auto auto;
+}
